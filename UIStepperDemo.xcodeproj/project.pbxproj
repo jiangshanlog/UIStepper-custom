@@ -15,6 +15,14 @@
 		EA862FB01D7FB917001BBCE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA862FAE1D7FB917001BBCE6 /* LaunchScreen.storyboard */; };
 		EA862FBB1D7FB917001BBCE6 /* UIStepperDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA862FBA1D7FB917001BBCE6 /* UIStepperDemoTests.m */; };
 		EA862FC61D7FB917001BBCE6 /* UIStepperDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA862FC51D7FB917001BBCE6 /* UIStepperDemoUITests.m */; };
+		EA862FD51D7FB96C001BBCE6 /* JSStepperView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA862FD41D7FB96C001BBCE6 /* JSStepperView.m */; };
+		EA862FEB1D7FD2E0001BBCE6 /* jia.png in Resources */ = {isa = PBXBuildFile; fileRef = EA862FE51D7FD2E0001BBCE6 /* jia.png */; };
+		EA862FEC1D7FD2E0001BBCE6 /* jia1.png in Resources */ = {isa = PBXBuildFile; fileRef = EA862FE61D7FD2E0001BBCE6 /* jia1.png */; };
+		EA862FED1D7FD2E0001BBCE6 /* jian.png in Resources */ = {isa = PBXBuildFile; fileRef = EA862FE71D7FD2E0001BBCE6 /* jian.png */; };
+		EA862FEE1D7FD2E0001BBCE6 /* jian1.png in Resources */ = {isa = PBXBuildFile; fileRef = EA862FE81D7FD2E0001BBCE6 /* jian1.png */; };
+		EA862FEF1D7FD2E0001BBCE6 /* jianxuanzhong.png in Resources */ = {isa = PBXBuildFile; fileRef = EA862FE91D7FD2E0001BBCE6 /* jianxuanzhong.png */; };
+		EA862FF01D7FD2E0001BBCE6 /* jiaxuanzhong.png in Resources */ = {isa = PBXBuildFile; fileRef = EA862FEA1D7FD2E0001BBCE6 /* jiaxuanzhong.png */; };
+		EA862FF21D7FD43B001BBCE6 /* productDetail_productNum@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA862FF11D7FD43B001BBCE6 /* productDetail_productNum@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,15 @@
 		EA862FC11D7FB917001BBCE6 /* UIStepperDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIStepperDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA862FC51D7FB917001BBCE6 /* UIStepperDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIStepperDemoUITests.m; sourceTree = "<group>"; };
 		EA862FC71D7FB917001BBCE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA862FD31D7FB96C001BBCE6 /* JSStepperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSStepperView.h; sourceTree = "<group>"; };
+		EA862FD41D7FB96C001BBCE6 /* JSStepperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSStepperView.m; sourceTree = "<group>"; };
+		EA862FE51D7FD2E0001BBCE6 /* jia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jia.png; sourceTree = "<group>"; };
+		EA862FE61D7FD2E0001BBCE6 /* jia1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jia1.png; sourceTree = "<group>"; };
+		EA862FE71D7FD2E0001BBCE6 /* jian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jian.png; sourceTree = "<group>"; };
+		EA862FE81D7FD2E0001BBCE6 /* jian1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jian1.png; sourceTree = "<group>"; };
+		EA862FE91D7FD2E0001BBCE6 /* jianxuanzhong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jianxuanzhong.png; sourceTree = "<group>"; };
+		EA862FEA1D7FD2E0001BBCE6 /* jiaxuanzhong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jiaxuanzhong.png; sourceTree = "<group>"; };
+		EA862FF11D7FD43B001BBCE6 /* productDetail_productNum@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "productDetail_productNum@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +118,13 @@
 		EA862F9F1D7FB917001BBCE6 /* UIStepperDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EA862FD61D7FBDE2001BBCE6 /* images */,
 				EA862FA31D7FB917001BBCE6 /* AppDelegate.h */,
 				EA862FA41D7FB917001BBCE6 /* AppDelegate.m */,
 				EA862FA61D7FB917001BBCE6 /* ViewController.h */,
 				EA862FA71D7FB917001BBCE6 /* ViewController.m */,
+				EA862FD31D7FB96C001BBCE6 /* JSStepperView.h */,
+				EA862FD41D7FB96C001BBCE6 /* JSStepperView.m */,
 				EA862FA91D7FB917001BBCE6 /* Main.storyboard */,
 				EA862FAC1D7FB917001BBCE6 /* Assets.xcassets */,
 				EA862FAE1D7FB917001BBCE6 /* LaunchScreen.storyboard */,
@@ -138,6 +158,20 @@
 				EA862FC71D7FB917001BBCE6 /* Info.plist */,
 			);
 			path = UIStepperDemoUITests;
+			sourceTree = "<group>";
+		};
+		EA862FD61D7FBDE2001BBCE6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EA862FE51D7FD2E0001BBCE6 /* jia.png */,
+				EA862FE61D7FD2E0001BBCE6 /* jia1.png */,
+				EA862FE71D7FD2E0001BBCE6 /* jian.png */,
+				EA862FE81D7FD2E0001BBCE6 /* jian1.png */,
+				EA862FE91D7FD2E0001BBCE6 /* jianxuanzhong.png */,
+				EA862FEA1D7FD2E0001BBCE6 /* jiaxuanzhong.png */,
+				EA862FF11D7FD43B001BBCE6 /* productDetail_productNum@2x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +278,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA862FB01D7FB917001BBCE6 /* LaunchScreen.storyboard in Resources */,
+				EA862FEF1D7FD2E0001BBCE6 /* jianxuanzhong.png in Resources */,
+				EA862FEE1D7FD2E0001BBCE6 /* jian1.png in Resources */,
 				EA862FAD1D7FB917001BBCE6 /* Assets.xcassets in Resources */,
+				EA862FF01D7FD2E0001BBCE6 /* jiaxuanzhong.png in Resources */,
+				EA862FED1D7FD2E0001BBCE6 /* jian.png in Resources */,
+				EA862FF21D7FD43B001BBCE6 /* productDetail_productNum@2x.png in Resources */,
+				EA862FEC1D7FD2E0001BBCE6 /* jia1.png in Resources */,
+				EA862FEB1D7FD2E0001BBCE6 /* jia.png in Resources */,
 				EA862FAB1D7FB917001BBCE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA862FA81D7FB917001BBCE6 /* ViewController.m in Sources */,
+				EA862FD51D7FB96C001BBCE6 /* JSStepperView.m in Sources */,
 				EA862FA51D7FB917001BBCE6 /* AppDelegate.m in Sources */,
 				EA862FA21D7FB917001BBCE6 /* main.m in Sources */,
 			);

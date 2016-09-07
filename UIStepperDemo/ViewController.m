@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "JSStepperView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    JSStepperView *js = [[JSStepperView alloc]initWithMix:1 Max:7];
+    js.frame = CGRectMake(100, 100, 150, 35);
+    [self.view addSubview:js];
+
 }
 
 - (void)didReceiveMemoryWarning {
